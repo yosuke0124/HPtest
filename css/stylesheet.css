@@ -1,0 +1,88 @@
+
+.header{
+  display: flex;
+}
+
+.header h1{
+  color:black;
+  margin: 20px 0 20px 80px;
+}
+
+.header p{
+  color:gray;
+  margin: 40px 0 20px 40px;
+}
+
+/* 以下ドロップダウン */
+.dropdwn{
+    width: 100%;
+    display: flex;
+}
+
+ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+}
+li{
+    max-width: calc(1400px/5);
+    position: relative;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.dropdwn>li{
+    width: 1200px;
+    margin: 1px;
+    background: black;
+    display: inline;
+}
+
+.dropdwn_menu{
+    width: 100%;
+    display: none;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 5px;
+    padding: 0;
+    background: black;
+}
+
+.dropdwn_menu li{
+    width: 100%;
+}
+
+.dropdwn_menu li a{
+    padding: 5px 0;
+    margin: -5px 5px -5px -5px;
+    display: block;
+    color: #fff;
+}
+
+li a:hover{
+    background: #DDD8D8;
+    color: rgb(65, 65, 65);
+}
+
+
+
+/* メイン */
+
+.main{
+  text-align: center;
+}
+
+.main h1{
+  font-size: 200px;
+}
+
+/*  フッター  */
+
+.footer{
+  color: white;
+  text-align: center;
+  background: black;
+}
